@@ -12,10 +12,10 @@
 :root {
   --primary-font: font-family: 'Concert One', cursive;
 
-  --primary-color: ;
-  --secondary-color: ;
+  --primary-color: #8DB4AD;
+  --secondary-color: #ECAE7D;
   --dark-color: ;
-  --medium-color: ;
+  --medium-color: #026C80;
   --light-color: ;
 }
 

@@ -1,0 +1,19 @@
+/* -------------------------- */
+/* Element styles */
+/* -------------------------- */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+/* -------------------------- */
+/* Class styles */
+/* -------------------------- */
+.background {
+    width: 100vw;
+    height: 40vh;
+    background-color: var(--primary-color);
+}
