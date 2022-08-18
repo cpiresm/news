@@ -1,19 +1,27 @@
 /* -------------------------- */
 /* Element styles */
 /* -------------------------- */
+body {
+    overflow: hidden;
+}
+
 img {
     width: 150px;
     height: 150px;
+    padding-top: 10px;
     border-radius: 50%;
-    position: relative;
-    
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+    background-color: var(--medium-color);
 }
 
 /* -------------------------- */
 /* Class styles */
 /* -------------------------- */
 .background {
-    width: 100vw;
-    height: 40vh;
+    width: 150vw;
+    height: 60vh;
     background-color: var(--primary-color);
+    transform: rotate(5deg);
 }
