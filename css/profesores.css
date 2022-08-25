@@ -4,24 +4,42 @@
 body {
     overflow: hidden;
 }
+header {
+    margin-bottom: 5vh;
+}
+h1 {
+    font-family: var(--primary-font);
+    font-size: 40px;
+    letter-spacing: 40px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+h4 {
+    margin-left: 4vw;
+    font-family: var(--phrase-font);
+}
+p {
+    margin-bottom: 60px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+}
 
-img {
+/* -------------------------- */
+/* Class styles */
+/* -------------------------- */
+.icono {
     width: 150px;
     height: 150px;
     padding-top: 10px;
     border-radius: 50%;
     position: absolute;
     top: 30vh;
-    left: 5vw;
+    left: 4vw;
     background-color: var(--medium-color);
 }
-
-/* -------------------------- */
-/* Class styles */
-/* -------------------------- */
-.background {
-    width: 150vw;
-    height: 60vh;
-    background-color: var(--primary-color);
-    transform: rotate(5deg);
+.bg {
+    height: 50vh;
+    width: 100vw;
 }

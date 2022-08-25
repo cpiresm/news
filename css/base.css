@@ -10,11 +10,12 @@
 }
 
 :root {
-  --primary-font: font-family: 'Concert One', cursive;
+  --primary-font: 'Concert One', cursive;
+  --secondary-font: 'Commissioner', sans-serif;
+  --phrase-font: 'Paytone One', sans-serif;
 
   --primary-color: #8DB4AD;
   --secondary-color: #ECAE7D;
-  --dark-color: ;
   --medium-color: #026C80;
   --light-color: #ffffff;
 }
