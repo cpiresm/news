@@ -51,6 +51,17 @@ h1{
 
 }
 
+h3{
+   font-family: 'Concert One';
+   font-style: normal;
+   font-weight: 400 !important;
+   font-size: 250% !important;
+   line-height: 39px !important;
+   color: #598787;
+   text-align: center;
+   padding: 0px !important;
+}
+
 .cursocontainer{
     display: flex;
     justify-content: center;
