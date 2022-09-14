@@ -1,0 +1,56 @@
+/* ---------------------------- */
+/* Element styles */
+/* ---------------------------- */
+nav {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 15vh;
+}
+h1 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 40px;
+    letter-spacing: 40px;
+    text-align: center;
+}
+h2 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 24px;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+button {
+}
+
+/* ---------------------------- */
+/* Class styles */
+/* ---------------------------- */
+.icon {
+    font-size: 28px;
+}
+.style {
+    padding: 20px;
+    border-radius: 15px;
+    transition: box-shadow .3s ease-out;
+}
+.style:hover {
+    box-shadow: 0 2px 6px rgba(20, 20, 20, 0.4);
+}
+.style1 {
+    color: var(--primary-color);
+    background-color: #A9D7CE;
+}
+.style2 {
+    color: #798E26;
+    background-color: var(--remark-color);
+}
+.style3 {
+    color: #7B522C;
+    background-color: #FCB16D;
+}
+.style4 {
+    color: #7E526F;
+    background-color: #C782CD;
+}

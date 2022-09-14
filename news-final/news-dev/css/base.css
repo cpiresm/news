@@ -1,0 +1,22 @@
+/* ---------------------------- */
+/* General styles */
+/* ---------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --primary-font: 'Concert One', cursive;
+  --secondary-font: 'Commissioner', sans-serif;
+  --phrase-font: 'Paytone One', sans-serif;
+
+  --primary-color: #8DB4AD;
+  --secondary-color: #ECAE7D;
+  --medium-color: #026C80;
+  --light-color: #ffffff;
+  --remark-color: #C1E044;
+}
