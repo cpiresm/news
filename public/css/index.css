@@ -1,0 +1,251 @@
+/* ------------------------------------------ */
+/* Element styles */
+/* ------------------------------------------ */
+body {
+   overflow-x: hidden;
+}
+
+h1 {
+   padding-top: 100px;
+   font-weight: 800;
+   line-height: 70px;
+   text-align: center;
+   letter-spacing: 20px;
+   font-family: 'Concert One', cursive;
+}
+
+h3 {
+   font-weight: 800;
+   font-size: 11px;
+   text-align: center;
+   letter-spacing: 20px;
+   font-family: 'Concert One', cursive;
+}
+
+h5{
+   color: rgb(243, 243, 243);
+   font-family: 'Paytone One', sans-serif;
+   text-shadow: 0px 3px rgb(129, 129, 129);
+}
+
+i {
+   color: #E45554;
+   font-style: normal;
+}
+
+
+
+/* ------------------------------------------ */
+/* Class styles */
+/* ------------------------------------------ */
+.logo {
+   width: 450px;
+   height: auto;
+
+   display: block;
+   margin: 0px auto;
+   background: url(2-removebg-preview.png);
+}
+
+.cua {
+   padding-top: 150px;
+   width: 500px;
+   height: 350px;
+   background-size: cover;
+   background-image: url(/public/assets/imagenes/home/mancha.png);
+}
+
+.te {
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+   margin-bottom: 60px;
+   width: 363px;
+   height: 90px;
+   font-weight: 700;
+}
+
+.flecha {
+   margin-right: auto;
+   margin-left: auto;
+   width: 40px;
+   height: 40px;
+   display: block;
+   border-radius: 20px;
+   border: none;
+   background-color: #3793BB;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   transition: all .4s ease-out;
+}
+.flecha:hover {
+   box-shadow: 0px 3px 8px rgba(20, 20, 20, 0.2);
+   background-color: #50afd8;
+}
+
+
+.img2 {
+   width: 845px;
+   height: 588px;
+   margin-left: auto;
+   margin-right: 5vw;
+   background: url(5294-removebg-preview.png);
+}
+
+.materias {
+   position: relative;
+   margin-bottom: 100px;
+}
+
+.titulo2 {
+   text-align: center;
+   z-index: 1000;
+   position: relative;
+   font-weight: 800;
+   letter-spacing: 40px;
+   font-family: 'Concert One', cursive;
+}
+
+.linea {
+   width: 400px;
+   height: 40px;
+   background-color: #B3D6CF;
+   position: absolute;
+   top: 20px;
+   left: calc(50% - 220px);
+   z-index: 0;
+   border-radius: 50px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   -ms-border-radius: 50px;
+   -o-border-radius: 50px;
+}
+
+
+.center-padre {
+   position: relative;
+}
+.center-hijo {
+   position: absolute;
+   top: 0;
+   left: calc(50% - 500px);
+   padding-bottom: 100px;
+}
+
+.f-icono {
+   color: white;
+   font-size: 24px;
+}
+
+.b {
+   width: 400px;
+   height: 110px;
+   margin-top: 30px;
+   border-radius: 20px;
+   border: none;
+   display: flex;
+   align-items: center;
+   transition: all .4s;
+}
+.b:hover {
+   box-shadow: 2px 2px 12px rgba(20, 20, 20, 0.2);
+}
+
+.b1{
+   background-color: #A9D7CE;
+   border-color: #A9D7CE;
+}
+.b2{
+   background-color: #C782CD;
+   border-color: #C782CD;
+}
+.b3{
+   background-color: #B2D7A9;
+   border-color: #B2D7A9;
+}
+.b4{
+   background-color: #839ED0;
+   border-color: #839ED0;
+}
+.b5{
+   background-color: #C1E044;
+   border-color: #C1E044;
+}
+.b6{
+   background-color: #7873AE;
+   border-color: #7873AE;
+}
+.b7{
+   background-color: #FCB16D;
+   border-color: #FCB16D;
+}
+.b8{
+   background-color: #7BCAD5;
+   border-color: #7BCAD5;
+}
+.b9{
+   background-color: #FC8F6D;
+   border-color: #FC8F6D;
+}
+.b10{
+   background-color: #CEDF9C;
+   border-color: #CEDF9C;
+}
+.b11{
+   background-color: #E993CC;
+   border-color: #E993CC;
+}
+.b12{
+   background-color: #E9DA59;
+   border-color: #E9DA59;
+}
+
+.m-icono {
+   padding: 20px;
+   background-color: white;
+   border-radius: 50%;
+   width: 70px;
+   height: 70px;
+   font-size: 28px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.m-icono1 {
+   color: #70a59a;
+}
+.m-icono2 {
+   color: #a261a8;
+}
+.m-icono3 {
+   color: #8ab87f;
+}
+.m-icono4 {
+   color: #5a76a8;
+}
+.m-icono5 {
+   color: #99b331;
+}
+.m-icono6 {
+   color: #545086;
+}
+.m-icono7 {
+   color: #dd934e;
+}
+.m-icono8 {
+   color: #5a99a8;
+}
+.m-icono9 {
+   color: #db7353;
+}
+.m-icono10 {
+   color: #aabb78;
+}
+.m-icono11 {
+   color: #bd69a1;
+}
+.m-icono12 {
+   color: #c4b63c;
+}
