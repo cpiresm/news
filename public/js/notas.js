@@ -1,5 +1,9 @@
 let carrusel = document.querySelector('#carrusel');
 let archivos = .length();
+let cantidad = [];
 for (let index = 0; index < array.length; index++) {
-    carrusel. += '';
+    cantidad.push(1);
 };
+for (elementos ) {
+        
+}
